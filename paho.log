@@ -1,0 +1,251 @@
+DEBUG 2017/03/24 15:15:41 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 15:15:41 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 15:15:41 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:15:41 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:15:41 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 15:15:41 client.go:366: [net]      connect started
+ERROR 2017/03/24 15:15:41 client.go:380: [net]      received msg that was not CONNACK
+DEBUG 2017/03/24 15:15:41 client.go:199: [client]   Trying reconnect using MQTT 3.1 protocol
+DEBUG 2017/03/24 15:15:41 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:15:41 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:15:41 client.go:178: [client]   Using MQTT 3.1 protocol
+DEBUG 2017/03/24 15:15:41 client.go:366: [net]      connect started
+ERROR 2017/03/24 15:15:41 client.go:380: [net]      received msg that was not CONNACK
+ERROR 2017/03/24 15:15:41 client.go:213: [client]   Failed to connect to a broker
+DEBUG 2017/03/24 15:15:41 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 15:18:32 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 15:18:32 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 15:18:32 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:18:32 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:18:32 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 15:18:32 client.go:366: [net]      connect started
+DEBUG 2017/03/24 15:18:32 client.go:384: [net]      received connack
+DEBUG 2017/03/24 15:18:32 client.go:241: [client]   client is connected
+DEBUG 2017/03/24 15:18:32 client.go:263: [client]   exit startClient
+DEBUG 2017/03/24 15:18:32 client.go:514: [client]   enter Subscribe
+DEBUG 2017/03/24 15:18:32 client.go:527: [client]   SUBSCRIBE: dup: false qos: 1 retain: false rLength: 0MessageID: 0 topics: [retain-topic1]
+DEBUG 2017/03/24 15:18:32 client.go:535: [client]   exit Subscribe
+DEBUG 2017/03/24 15:18:32 ping.go:25: [pinger]   keepalive starting
+DEBUG 2017/03/24 15:18:32 net.go:179: [net]      logic started
+DEBUG 2017/03/24 15:18:32 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:18:32 net.go:117: [net]      outgoing started
+DEBUG 2017/03/24 15:18:32 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:18:32 net.go:155: [net]      obound priority msg to write, type *packets.SubscribePacket
+DEBUG 2017/03/24 15:18:32 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:18:32 ping.go:48: [net]      resetting ping timers
+DEBUG 2017/03/24 15:18:32 net.go:83: [net]      incoming started
+DEBUG 2017/03/24 15:18:32 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:18:32 net.go:186: [net]      logic got msg on ibound
+WARN 2017/03/24 15:18:32 memstore.go:110: [store]    memorystore del: message 1 not found
+DEBUG 2017/03/24 15:18:32 net.go:194: [net]      received suback, id: 1
+DEBUG 2017/03/24 15:18:32 net.go:196: [net]      granted qoss [0]
+DEBUG 2017/03/24 15:18:32 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:18:32 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:18:32 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 15:18:32 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 15:18:32 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 15:18:32 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 15:18:32 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:18:32 client.go:393: [client]   disconnecting
+DEBUG 2017/03/24 15:18:32 net.go:155: [net]      obound priority msg to write, type *packets.DisconnectPacket
+DEBUG 2017/03/24 15:18:32 net.go:164: [net]      outbound wrote disconnect, stopping
+DEBUG 2017/03/24 15:18:32 net.go:103: [net]      incoming stopped
+DEBUG 2017/03/24 15:18:32 ping.go:35: [pinger]   keepalive stopped
+WARN 2017/03/24 15:18:32 net.go:265: [net]      logic stopped
+DEBUG 2017/03/24 15:18:32 client.go:466: [client]   disconnected
+DEBUG 2017/03/24 15:18:32 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 15:19:03 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 15:19:03 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 15:19:03 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:19:03 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:19:03 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 15:19:03 client.go:366: [net]      connect started
+DEBUG 2017/03/24 15:19:03 client.go:384: [net]      received connack
+DEBUG 2017/03/24 15:19:03 client.go:241: [client]   client is connected
+DEBUG 2017/03/24 15:19:03 client.go:263: [client]   exit startClient
+DEBUG 2017/03/24 15:19:03 client.go:514: [client]   enter Subscribe
+DEBUG 2017/03/24 15:19:03 net.go:179: [net]      logic started
+DEBUG 2017/03/24 15:19:03 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:03 client.go:527: [client]   SUBSCRIBE: dup: false qos: 1 retain: false rLength: 0MessageID: 0 topics: [retain-topic2]
+DEBUG 2017/03/24 15:19:03 client.go:535: [client]   exit Subscribe
+DEBUG 2017/03/24 15:19:03 net.go:83: [net]      incoming started
+DEBUG 2017/03/24 15:19:03 net.go:117: [net]      outgoing started
+DEBUG 2017/03/24 15:19:03 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:19:03 net.go:155: [net]      obound priority msg to write, type *packets.SubscribePacket
+DEBUG 2017/03/24 15:19:03 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:19:03 ping.go:25: [pinger]   keepalive starting
+DEBUG 2017/03/24 15:19:03 ping.go:48: [net]      resetting ping timers
+DEBUG 2017/03/24 15:19:03 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:03 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 15:19:03 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 15:19:03 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 15:19:03 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 15:19:03 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:03 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:03 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:03 net.go:186: [net]      logic got msg on ibound
+WARN 2017/03/24 15:19:03 memstore.go:110: [store]    memorystore del: message 1 not found
+DEBUG 2017/03/24 15:19:03 net.go:194: [net]      received suback, id: 1
+DEBUG 2017/03/24 15:19:03 net.go:196: [net]      granted qoss [0]
+DEBUG 2017/03/24 15:19:03 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:03 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 15:19:03 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 15:19:03 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 15:19:03 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 15:19:03 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:03 client.go:393: [client]   disconnecting
+DEBUG 2017/03/24 15:19:03 net.go:155: [net]      obound priority msg to write, type *packets.DisconnectPacket
+DEBUG 2017/03/24 15:19:03 net.go:164: [net]      outbound wrote disconnect, stopping
+DEBUG 2017/03/24 15:19:03 net.go:103: [net]      incoming stopped
+WARN 2017/03/24 15:19:03 net.go:265: [net]      logic stopped
+DEBUG 2017/03/24 15:19:03 ping.go:35: [pinger]   keepalive stopped
+DEBUG 2017/03/24 15:19:03 client.go:466: [client]   disconnected
+DEBUG 2017/03/24 15:19:03 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 15:19:16 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 15:19:16 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 15:19:16 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:19:16 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:19:16 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 15:19:16 client.go:366: [net]      connect started
+DEBUG 2017/03/24 15:19:16 client.go:384: [net]      received connack
+DEBUG 2017/03/24 15:19:16 client.go:241: [client]   client is connected
+DEBUG 2017/03/24 15:19:16 client.go:263: [client]   exit startClient
+DEBUG 2017/03/24 15:19:16 client.go:514: [client]   enter Subscribe
+DEBUG 2017/03/24 15:19:16 net.go:179: [net]      logic started
+DEBUG 2017/03/24 15:19:16 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:16 ping.go:25: [pinger]   keepalive starting
+DEBUG 2017/03/24 15:19:16 net.go:83: [net]      incoming started
+DEBUG 2017/03/24 15:19:16 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:16 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 15:19:16 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:16 client.go:527: [client]   SUBSCRIBE: dup: false qos: 1 retain: false rLength: 0MessageID: 0 topics: [retain-topic3]
+DEBUG 2017/03/24 15:19:16 client.go:535: [client]   exit Subscribe
+DEBUG 2017/03/24 15:19:16 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 15:19:16 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 15:19:16 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 15:19:16 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:16 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 15:19:16 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 15:19:16 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 15:19:16 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 15:19:16 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:16 net.go:117: [net]      outgoing started
+DEBUG 2017/03/24 15:19:16 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:19:16 net.go:155: [net]      obound priority msg to write, type *packets.SubscribePacket
+DEBUG 2017/03/24 15:19:16 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 15:19:16 ping.go:48: [net]      resetting ping timers
+DEBUG 2017/03/24 15:19:16 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 15:19:16 net.go:186: [net]      logic got msg on ibound
+WARN 2017/03/24 15:19:16 memstore.go:110: [store]    memorystore del: message 1 not found
+DEBUG 2017/03/24 15:19:16 net.go:194: [net]      received suback, id: 1
+DEBUG 2017/03/24 15:19:16 net.go:196: [net]      granted qoss [0]
+DEBUG 2017/03/24 15:19:16 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 15:19:16 client.go:393: [client]   disconnecting
+DEBUG 2017/03/24 15:19:16 net.go:155: [net]      obound priority msg to write, type *packets.DisconnectPacket
+DEBUG 2017/03/24 15:19:16 net.go:164: [net]      outbound wrote disconnect, stopping
+DEBUG 2017/03/24 15:19:16 net.go:103: [net]      incoming stopped
+WARN 2017/03/24 15:19:16 net.go:265: [net]      logic stopped
+DEBUG 2017/03/24 15:19:16 ping.go:35: [pinger]   keepalive stopped
+DEBUG 2017/03/24 15:19:16 client.go:466: [client]   disconnected
+DEBUG 2017/03/24 15:19:16 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 15:19:27 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 15:19:27 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 15:19:27 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:19:27 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:19:27 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 15:19:27 client.go:366: [net]      connect started
+ERROR 2017/03/24 15:19:27 client.go:380: [net]      received msg that was not CONNACK
+DEBUG 2017/03/24 15:19:27 client.go:199: [client]   Trying reconnect using MQTT 3.1 protocol
+DEBUG 2017/03/24 15:19:27 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 15:19:27 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 15:19:27 client.go:178: [client]   Using MQTT 3.1 protocol
+DEBUG 2017/03/24 15:19:27 client.go:366: [net]      connect started
+ERROR 2017/03/24 15:19:27 client.go:380: [net]      received msg that was not CONNACK
+ERROR 2017/03/24 15:19:27 client.go:213: [client]   Failed to connect to a broker
+DEBUG 2017/03/24 15:19:27 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 16:30:05 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 16:30:05 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 16:30:05 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 16:30:05 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 16:30:05 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 16:30:05 client.go:366: [net]      connect started
+DEBUG 2017/03/24 16:30:05 client.go:384: [net]      received connack
+DEBUG 2017/03/24 16:30:05 client.go:241: [client]   client is connected
+DEBUG 2017/03/24 16:30:05 client.go:263: [client]   exit startClient
+DEBUG 2017/03/24 16:30:05 client.go:514: [client]   enter Subscribe
+DEBUG 2017/03/24 16:30:05 net.go:179: [net]      logic started
+DEBUG 2017/03/24 16:30:05 client.go:527: [client]   SUBSCRIBE: dup: false qos: 1 retain: false rLength: 0MessageID: 0 topics: [retain-topic1]
+DEBUG 2017/03/24 16:30:05 client.go:535: [client]   exit Subscribe
+DEBUG 2017/03/24 16:30:05 ping.go:25: [pinger]   keepalive starting
+DEBUG 2017/03/24 16:30:05 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 16:30:05 net.go:83: [net]      incoming started
+DEBUG 2017/03/24 16:30:05 net.go:117: [net]      outgoing started
+DEBUG 2017/03/24 16:30:05 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 16:30:05 net.go:155: [net]      obound priority msg to write, type *packets.SubscribePacket
+DEBUG 2017/03/24 16:30:05 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 16:30:05 ping.go:48: [net]      resetting ping timers
+DEBUG 2017/03/24 16:30:05 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 16:30:05 net.go:186: [net]      logic got msg on ibound
+WARN 2017/03/24 16:30:05 memstore.go:110: [store]    memorystore del: message 1 not found
+DEBUG 2017/03/24 16:30:05 net.go:194: [net]      received suback, id: 1
+DEBUG 2017/03/24 16:30:05 net.go:196: [net]      granted qoss [0]
+DEBUG 2017/03/24 16:30:05 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 16:30:05 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 16:30:05 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 16:30:05 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 16:30:05 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 16:30:05 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 16:30:05 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 16:30:05 client.go:393: [client]   disconnecting
+DEBUG 2017/03/24 16:30:05 net.go:155: [net]      obound priority msg to write, type *packets.DisconnectPacket
+DEBUG 2017/03/24 16:30:05 net.go:164: [net]      outbound wrote disconnect, stopping
+DEBUG 2017/03/24 16:30:05 net.go:103: [net]      incoming stopped
+DEBUG 2017/03/24 16:30:05 ping.go:35: [pinger]   keepalive stopped
+DEBUG 2017/03/24 16:30:05 client.go:466: [client]   disconnected
+DEBUG 2017/03/24 16:30:05 memstore.go:126: [store]    memorystore closed
+DEBUG 2017/03/24 17:02:31 client.go:161: [client]   Connect()
+DEBUG 2017/03/24 17:02:31 memstore.go:48: [store]    memorystore initialized
+DEBUG 2017/03/24 17:02:31 client.go:172: [client]   about to write new connect msg
+DEBUG 2017/03/24 17:02:31 client.go:175: [client]   socket connected to broker
+DEBUG 2017/03/24 17:02:31 client.go:182: [client]   Using MQTT 3.1.1 protocol
+DEBUG 2017/03/24 17:02:31 client.go:366: [net]      connect started
+DEBUG 2017/03/24 17:02:31 client.go:384: [net]      received connack
+DEBUG 2017/03/24 17:02:31 client.go:241: [client]   client is connected
+DEBUG 2017/03/24 17:02:31 client.go:263: [client]   exit startClient
+DEBUG 2017/03/24 17:02:31 client.go:514: [client]   enter Subscribe
+DEBUG 2017/03/24 17:02:31 client.go:527: [client]   SUBSCRIBE: dup: false qos: 1 retain: false rLength: 0MessageID: 0 topics: [retain-topic1]
+DEBUG 2017/03/24 17:02:31 client.go:535: [client]   exit Subscribe
+DEBUG 2017/03/24 17:02:31 net.go:179: [net]      logic started
+DEBUG 2017/03/24 17:02:31 net.go:117: [net]      outgoing started
+DEBUG 2017/03/24 17:02:31 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 17:02:31 net.go:155: [net]      obound priority msg to write, type *packets.SubscribePacket
+DEBUG 2017/03/24 17:02:31 net.go:120: [net]      outgoing waiting for an outbound message
+DEBUG 2017/03/24 17:02:31 net.go:83: [net]      incoming started
+DEBUG 2017/03/24 17:02:31 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 17:02:31 ping.go:25: [pinger]   keepalive starting
+DEBUG 2017/03/24 17:02:31 ping.go:48: [net]      resetting ping timers
+DEBUG 2017/03/24 17:02:31 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 17:02:31 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 17:02:31 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 17:02:31 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 17:02:31 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 17:02:31 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 17:02:31 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 17:02:31 net.go:89: [net]      Received Message
+DEBUG 2017/03/24 17:02:31 net.go:186: [net]      logic got msg on ibound
+WARN 2017/03/24 17:02:31 memstore.go:110: [store]    memorystore del: message 1 not found
+DEBUG 2017/03/24 17:02:31 net.go:194: [net]      received suback, id: 1
+DEBUG 2017/03/24 17:02:31 net.go:196: [net]      granted qoss [0]
+DEBUG 2017/03/24 17:02:31 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 17:02:31 net.go:186: [net]      logic got msg on ibound
+DEBUG 2017/03/24 17:02:31 net.go:210: [net]      received publish, msgId: 0
+DEBUG 2017/03/24 17:02:31 net.go:211: [net]      putting msg on onPubChan
+DEBUG 2017/03/24 17:02:31 net.go:231: [net]      done putting msg on incomingPubChan
+DEBUG 2017/03/24 17:02:31 net.go:182: [net]      logic waiting for msg on ibound
+DEBUG 2017/03/24 17:02:31 client.go:393: [client]   disconnecting
+DEBUG 2017/03/24 17:02:31 net.go:155: [net]      obound priority msg to write, type *packets.DisconnectPacket
+DEBUG 2017/03/24 17:02:31 net.go:164: [net]      outbound wrote disconnect, stopping
+DEBUG 2017/03/24 17:02:31 net.go:103: [net]      incoming stopped
+DEBUG 2017/03/24 17:02:31 ping.go:35: [pinger]   keepalive stopped
+DEBUG 2017/03/24 17:02:31 client.go:466: [client]   disconnected
+DEBUG 2017/03/24 17:02:31 memstore.go:126: [store]    memorystore closed

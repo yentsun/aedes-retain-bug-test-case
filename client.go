@@ -85,7 +85,7 @@ func main() {
 	opts.SetCleanSession(*cleansess)
 
 	// set loggers
-	f, err := os.OpenFile("isaax-mqtt.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+	f, err := os.OpenFile("paho.log", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Println("ERROR OPENING MQTT LOG FILE ")
 	}
