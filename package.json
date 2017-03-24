@@ -1,0 +1,23 @@
+{
+  "name": "aedes-retain-bug-test-case",
+  "version": "1.0.0",
+  "description": "A test case dmonstrating aedes retain/connack protocol violation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node broker.js"
+  },
+  "keywords": [
+    "aedes",
+    "mqtt"
+  ],
+  "contrubutors": [
+    "Max Korinets",
+    "bnuriddinu@gmail.com"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.25.1",
+    "aedes-persistence": "^2.4.0",
+    "mqtt": "^2.5.0"
+  }
+}
